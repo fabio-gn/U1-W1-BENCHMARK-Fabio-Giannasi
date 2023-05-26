@@ -1,0 +1,261 @@
+/* Your styles here */
+/* impostazioni generali */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url(../img/sfondo.png);
+  background-size: contain;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+p {
+  margin: 0.8rem 0;
+}
+ul,
+ol {
+  padding-left: 2rem;
+}
+li {
+  margin-bottom: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+}
+
+/* resto dello stile -----------------------------------------*/
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+}
+.headings {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+}
+.headings,
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3rem;
+}
+/* Header------------------------------------------------------ */
+
+header {
+  background-color: black;
+  margin: 0 auto;
+  padding: 2rem 0;
+  width: 100%;
+}
+.logo-container {
+  margin-left: 3rem;
+  width: fit-content;
+}
+#logo {
+  width: 10rem;
+}
+/* MAIN-------------------------------------------------------- */
+main {
+  width: 100%;
+}
+
+#call-to-action {
+  width: 100%;
+  height: 59vh;
+  background-image: url(./assets/images/banner.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+}
+.call-to-act-container {
+  padding: 1rem;
+  margin: 0 auto;
+}
+#call-to-action > h1 {
+    
+  margin-bottom: 2rem;
+}
+#call-to-action p {
+  margin: 0 auto 1.5rem auto;
+  line-height: 2.1rem;
+  text-align: center;
+  max-width: 50rem;
+}
+.button {
+  display: block;
+  width: fit-content;
+  background-color: #f04c2f;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  margin: 0 auto;
+}
+.button:hover{
+    background-color: #a4331f;
+    cursor:pointer;
+}
+.motivation-container{
+    display: inline-block;
+    margin: auto 0;
+    padding: 8rem 0;
+}
+.motivation-wrapper{
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+.text-wrapper{
+
+    display: inline-block;
+    width: 30vw;
+    margin-left: 5rem;
+    
+}
+#motivation h2 {
+    text-align: left;
+  margin-top: 1rem;
+  
+  font-size: 1.3rem;
+}
+#motivation p {
+  text-align: left;
+  
+}
+.img-container {
+  display: inline-block;
+  width: 30rem;
+  height: 30rem;
+  background-image: url(./assets/images/notebook.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50% 50%;
+  margin: auto 0;
+}
+#testimonianze {
+  background-color: #e22d0e;
+  color: white;
+  padding: 3rem 1rem 6rem 1rem;
+}
+#testimonianze h3,
+#testimonianze p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+#testimonianze h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#testimonianze p:first-of-type {
+  font-style: italic;
+}
+#testimonianze p:nth-child(3) {
+  font-size: 1.4rem;
+  margin-bottom: -1rem;
+}
+#testimonianze p:nth-child(4) {
+    font-size: .8rem;
+    margin-bottom: -1rem;
+  }
+#cards-container{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.card-wrapper{
+    margin: 0 auto;
+    width: fit-content;
+}
+.card {
+    display: inline-block;
+  border: 2px solid #dee1e3;
+  margin: 2.5rem 1.5rem;
+  border-radius: 5px;
+  width: 28vw;
+}
+.card img {
+  width: 100%;
+  margin-bottom: 0rem;
+}
+.card p {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* footer ------------------------------------------------------*/
+.footer-container{
+    width: 15rem;
+    margin: 0 auto;
+}
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  padding: 2.3rem 0 2rem 0;
+}
+footer h3 {
+    
+  font-size: 3rem;
+  color: white;
+}
+footer ul {
+  margin: 2rem 0;
+  padding: 0;
+}
+footer ul li {
+  list-style-type: none;
+  
+  margin: 0;
+}
+footer a {
+  color: #c8e7f0;
+}
+footer p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+footer hr {
+  width: 100%;
+  background-color: #c8e7f0;
+  border: none;
+  height: 1px;
+}
